@@ -1,0 +1,53 @@
+.panel {
+  background-color: white;
+  padding-block: 1.5rem;
+  height: auto;
+  display: flex;
+  flex-direction: column;
+  gap: 1.5rem;
+}
+
+.panelButton {
+  cursor: pointer;
+  width: 100%;
+  background-color: transparent;
+  border: none;
+  padding: 0;
+  margin: 0;
+  font-weight: 600;
+  font-size: 1.125rem;
+  letter-spacing: 0.45px;
+  text-align: left;
+
+  display: flex;
+  gap: 1rem;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.panelButton:hover,
+.panelButton:focus {
+  color: #9824cf;
+}
+
+.panelButton:focus {
+  outline: none;
+}
+
+.panelText {
+  line-height: 1.5rem;
+  color: var(--grayish-purple);
+  margin: 0;
+}
+
+@media (max-width: 400px) {
+  .panelButton {
+    font-size: 1rem;
+    gap: 2rem;
+  }
+
+  .panelText {
+    font-size: 0.875rem;
+    line-height: 1.25rem;
+  }
+}
