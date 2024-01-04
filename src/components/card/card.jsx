@@ -28,7 +28,7 @@ export default function Card() {
   return (
     <div className={styles.card}>
       <div className={styles.title}>
-        <img src="../src/assets/icon-star.svg" alt="star" />
+        <img src="/assets/icon-star.svg" alt="star" />
         <h1 className={styles.titleText}>FAQs</h1>
       </div>
       <div className={styles.panelContainer}>

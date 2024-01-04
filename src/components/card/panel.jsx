@@ -14,11 +14,7 @@ export default function Panel({ title, text }) {
       <button className={styles.panelButton} onClick={handleClick}>
         {title}
         <img
-          src={
-            hidden
-              ? "./src/assets/icon-plus.svg"
-              : "./src/assets/icon-minus.svg"
-          }
+          src={hidden ? "/assets/icon-plus.svg" : "/assets/icon-minus.svg"}
           alt="icon"
         />
       </button>
